@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         StringBuilder clave = new StringBuilder();
 
-        int letra = 0;
+        char letra = ' ';
         int contador = 0;
 
         try (BufferedReader reader = new BufferedReader(new FileReader("clave.txt"))) {
